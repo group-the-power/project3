@@ -1,0 +1,27 @@
+{
+  "name": "project3-backend",
+  "version": "1.0.0",
+  "description": "1. we choose to design web application that can any student to find specific teacher to can meet them and teach them face to face or  online.\r 2. It will built using Express, React and MongoDB.\r 3. It will has a custom server build using Express.\r 4. The front-end is built using React. You can use a React framework \r (e.g.\r Create Next.js)\r # Trello website link\r  https://trello.com/b/I2j67reY/project3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadaAlraghieb/project3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadaAlraghieb/project3/issues"
+  },
+  "homepage": "https://github.com/NadaAlraghieb/project3#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2"
+  }
+}
