@@ -11,8 +11,11 @@ const userSchema = new mongoose.Schema({
   courses:[
     String
   ],
-  rule:{type:String}
+
+  role:{type:String}
 });
 
+
 module.exports.User = mongoose.model("User", userSchema);
+
 
